@@ -464,19 +464,9 @@
     .testi-grid{grid-template-columns:1fr 1fr}
     .trust-inner{grid-template-columns:repeat(2,1fr)}
   }
-  /* @media(max-width:680px){
-    .nav-inner{flex-wrap:wrap;gap:8px}
-    .search-bar{order:3;width:100%}
-    .cats{grid-template-columns:repeat(4,1fr)}
-    .testi-grid{grid-template-columns:1fr}
-    .footer-top{grid-template-columns:1fr}
-    .trust-inner{grid-template-columns:1fr 1fr}
-    .topbar-links{display:none}
-    .item-card{flex:0 0 180px}
-  } */
  @media(max-width:680px){
     .nav-inner{flex-wrap:wrap;gap:8px;overflow:hidden}
-    .search-bar{order:3;width:100%;max-width:100%;box-sizing:border-box}
+    .search-bar{order:3;width:100%;max-width:100%;box-sizing:border-box;padding:0 12px}
     .search-bar input{min-width:0;width:0}
     .cats{grid-template-columns:repeat(4,1fr)}
     .testi-grid{grid-template-columns:1fr}
